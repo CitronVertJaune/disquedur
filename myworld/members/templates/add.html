@@ -1,0 +1,12 @@
+<h1>Ajouter un membre a la famille Pouzancre</h1>
+
+<form action="addrecord/" method="post">
+{% csrf_token %}
+Prenom:<br>
+<input name="first">
+<br><br>
+Nom de famille:<br>
+<input name="last">
+<br><br>
+<input type="submit" value="Submit">
+</form>
